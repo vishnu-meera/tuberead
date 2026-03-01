@@ -13,6 +13,11 @@
     "start": "node src/cli.js",
     "test": "node --test src/**/*.test.js"
   },
+  "author": "vishnu-meera",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/vishnu-meera/tuberead"
+  },
   "keywords": [
     "youtube",
     "transcribe",
