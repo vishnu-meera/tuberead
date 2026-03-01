@@ -1,0 +1,28 @@
+{
+  "name": "tuberead",
+  "version": "1.0.0",
+  "description": "CLI tool that transcribes YouTube videos and transforms them into engaging, readable technical articles using Gemini AI.",
+  "type": "module",
+  "bin": {
+    "tuberead": "./src/cli.js"
+  },
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test src/**/*.test.js"
+  },
+  "keywords": [
+    "youtube",
+    "transcribe",
+    "gemini",
+    "ai",
+    "cli",
+    "markdown"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.0.0"
+  }
+}
